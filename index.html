@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Hypermart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <div class="logo-container">
+            <a href="#"><img src="images/Prince_Hypermart.avif" alt="Prince Hypermart"></a>
+        </div>
+        <div class="slogan-container">
+            <span class="slogan">One Town, One Prince</span>
+        </div>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search products...">
+        <button type="submit"><i class="fas fa-search"></i></button>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item active" id="homeNavItem">
+                <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i> Products <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user"></i> Account</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header-image">
+        <img src="images/pamile.jpg" alt="Header Image">
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="welcome-message">
+            <h2>Welcome to Prince Hypermart!</h2>
+            <p>Discover amazing deals and products...</p>
+        </div>
+        <div class="slideshow-container">
+            <div class="carousel-container">
+                <div class="carousel-item fade">
+                    <img src="images/caro.jpg" class="slide-image" alt="Slide 1">
+                </div>
+                <div class="carousel-item fade">
+                    <img src="images/car.jpg" class="slide-image" alt="Slide 2">
+                </div>
+                <div class="carousel-item fade">
+                    <img src="images/ca.jpg" class="slide-image" alt="Slide 3">
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+
+    <section class="special-offers">
+        <div class="container">
+            <h2>Special Offers</h2>
+            <div class="offer-container">
+                <div class="offer-item">
+                    <img src="images/wineer.jpg" alt="Special Offer 1">
+                    <h3>Flash Sale Alert</h3>
+                    <p>Get 20% off on selected items!</p>
+                </div>
+                <div class="offer-item">
+                    <img src="images/promo.jpg" alt="Special Offer 2">
+                    <h3>Limited Time Offer</h3>
+                    <p>Buy one, get one free!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>FEATURED PRODUCTS</h2>
+        <div class="container">
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="images/de.jpg" alt="Product Image">
+                    <div class="product-details">
+                        <h3>Denim Jeans</h3>
+                        <p>Classic denim jeans for a timeless look.</p>
+                        <span>$49.99</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="images/keta.jpg" alt="Product Image" style="height: 200px;">
+                    <div class="product-details">
+                        <h3>Statement Necklace</h3>
+                        <p>Elegant statement necklace to elevate any outfit.</p>
+                        <span>$29.99</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="images/kicare.webp" alt="Product Image" style="height: 200px;">
+                    <div class="product-details">
+                        <h3>Skincare Set</h3>
+                        <p>Complete skincare set for a radiant complexion.</p>
+                        <span>$39.99</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="images/ear.jpg" alt="Product Image" style="height: 200px;">
+                    <div class="product-details">
+                        <h3>Wireless Earbuds</h3>
+                        <p>High-quality wireless earbuds for immersive audio experience.</p>
+                        <span>$79.99</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="images/vae.jpg" alt="Product Image" style="height: 200px;">
+                    <div class="product-details">
+                        <h3>Decorative Vase</h3>
+                        <p>Modern decorative vase to add a touch of elegance to your home.</p>
+                        <span>$24.99</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="images/yoga.webp" alt="Product Image" style="height: 200px;">
+                    <div class="product-details">
+                        <h3>Yoga Mat</h3>
+                        <p>Non-slip yoga mat for comfortable workouts.</p>
+                        <span>$29.99</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="images/travel.jpg" alt="Product Image" style="height: 200px;">
+                    <div class="product-details">
+                        <h3>Travel Backpack</h3>
+                        <p>Durable travel backpack with ample storage space.</p>
+                        <span>$59.99</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="images/kid.jpg" alt="Product Image" style="height: 200px;">
+                    <div class="product-details">
+                        <h3>Kids' Puzzle Set</h3>
+                        <p>Educational puzzle set for hours of fun.</p>
+                        <span>$14.99</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Welcome to Prince Hypermart, your ultimate destination for trendy fashion, stylish accessories, and more. At Prince Hypermart, we are committed to providing our customers with the latest trends and high-quality products at unbeatable prices.</p>
+                <p>With a wide range of products spanning from clothing and accessories to home decor and electronics, we aim to cater to all your shopping needs in one convenient place. Our team is dedicated to ensuring a seamless shopping experience, from browsing our selection to fast and reliable shipping.</p>
+                <p>Whether you're looking for the perfect outfit for a special occasion or searching for unique gifts for your loved ones, Prince Hypermart has you covered. We value our customers and strive to exceed their expectations with every purchase.</p>
+                <p>Thank you for choosing Prince Hypermart. We look forward to serving you and helping you discover the latest trends and unbeatable deals.</p>
+            </div>
+        </section>        
+    
+        <section class="customer-reviews">
+            <div class="container">
+                <h2>Customer Reviews</h2>
+                <div class="reviews">
+                    <div class="review">
+                        <img src="images/satisf.jpg" alt="Customer 1">
+                        <h3>John Doe</h3>
+                        <p>"I absolutely love the products from Prince Hypermart! The quality is exceptional and the prices are unbeatable. Highly recommended!"</p>
+                    </div>
+                    <div class="review">
+                        <img src="images/satis.jpg" alt="Customer 2">
+                        <h3>Jane Smith</h3>
+                        <p>"Excellent customer service and fast shipping. I've been a loyal customer for years and will continue to shop here for all my needs."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+        <section class="contact-us">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, feedback, or concerns, please don't hesitate to get in touch with us...</p>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:info@retailer.com">prince_hypermart@retailer.com</a></p>
+                    <p>Phone: <a href="tel:+11234567890">+1 123-456-7890</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <ul class="social-links">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+            <div class="subscribe">
+                <h3>Subscribe to our newsletter</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                </ul>
+            </div>
+            <p>&copy; 2024 Retailer Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    </body>
+    </html>
